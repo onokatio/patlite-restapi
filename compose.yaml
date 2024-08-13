@@ -1,0 +1,6 @@
+services:
+  patlite:
+    build: .
+    ports:
+      - 8085:8085
+    restart: always
